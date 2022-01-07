@@ -68,9 +68,15 @@ kop=Entry(aken,font="Arial 20", fg="green",bg="lightblue",width=5)
 pop=Label(aken,text="=0",font="Arial 20", fg="green")
 kit=Button(aken,text="Решить",font="Arial 20",bg="green",command=lahenda)
 kot_g=Button(aken,text="График", font="Arial 20",bg="green",command=graafik)
+rad1=Radiobutton(aken,text="kit", font="Arial 20",bg="green",command=graafik)
+rad2=Radiobutton(aken,text="zontik", font="Arial 20",bg="green",command=graafik)
+rad3=Radiobutton(aken,text="laguska", font="Arial 20",bg="green",command=graafik)
 
 
 
+rad3.pack()
+rad2.pack()
+rad1.pack()
 kot_g.pack(side=RIGHT)
 kit.pack(side=LEFT)
 reshen.pack()
