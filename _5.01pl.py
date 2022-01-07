@@ -41,7 +41,7 @@ def graafik():
         kop_=int(kop.get())
         x0=(-kp_)/(2*knipka_)
         y0=knipka_*x0*x0+kp_*x0+kop_
-        x = np.arange(x0-10, x0+10, 0.5)#min max step
+        x = np.arange(x0-10, x0+10, 0.5)
         y=knipka_*x*x+kp_*x+kop_
         fig = plt.figure()
         plt.plot(x, y,'b:o', x0, y0,'g-d')
